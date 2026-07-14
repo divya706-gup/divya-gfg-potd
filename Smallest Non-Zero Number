@@ -1,0 +1,40 @@
+class Solution {
+	public:
+	bool isValid(long long x, vector<int>& arr) {
+		const long long INF = 4e18;
+		
+		for (int num : arr) {
+			__int128 nxt = (__int128)2 * x - num;
+			
+			if (nxt < 0)
+				return false;
+			
+			if (nxt > INF)
+				x = INF;
+			else
+				x = (long long)nxt;
+		}
+		
+		return true;
+	}
+	int find(vector<int>&arr) {
+		int max_val = 0;
+		for (int num:arr) {
+			max_val = max(max_val, num);
+		}
+		int low = 0;
+		int high = max_val;
+		int result = 0;
+		while (low <= high) {
+			int mid = low + (high - low)/2;
+			if (isValid(mid, arr)) {
+				result = mid;
+				high = mid - 1;
+			}
+			else {
+				low = mid + 1;
+			}
+		}
+		return result;
+	}
+};
