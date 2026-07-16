@@ -28,12 +28,14 @@ Each solution is organized systematically. You can find solutions categorized by
 | Date | Problem Name | Difficulty | Solution Link |
 | :--- | :--- | :--- | :--- |
 | Daily | [Smallest Non-Zero Number](https://github.com/divya706-gup/divya-gfg-potd) | - | [View Solution](./Smallest%20Non-Zero%20Number) |
+| Daily | [Numbers with Given Digit Sum](./Difficulty:%20Medium/Numbers%20with%20Given%20Digit%20Sum) | Medium | [View Solution](./Difficulty:%20Medium/Numbers%20with%20Given%20Digit%20Sum) |
+| Daily | [Longest Bitonic Subarray](./Longest%20Bitonic%20Subarray) | - | [View Solution](./Longest%20Bitonic%20Subarray) |
 
 ---
 
 ## 🌟 Connect with Me
 
-If you find this repository helpful, feel free to give it a ⭐! 
+If you find this repository helpful, feel free to give it a ⭐!
 
 * **GitHub:** [@divya706-gup](https://github.com/divya706-gup)
 * **GeeksforGeeks Profile:** [Your Profile Link Here]
