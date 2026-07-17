@@ -21,7 +21,7 @@ Each solution is organized systematically. You can find solutions categorized by
 
 | *Date* | *Problem Name* | *Difficulty* | *Solution Link* |
 | ----- | ----- | ----- | ----- |
-| 17-07-2026 | [Difficulty: Medium](Difficulty:%20Medium) | Medium | [View Solution](Difficulty:%20Medium) |
+| Daily | [Max Absolute Diff of Two Subarrays](Max%20Absolute%20Diff%20of%20Two%20Subarrays) | Medium | [View Solution](Max%20Absolute%20Diff%20of%20Two%20Subarrays) |
 | Daily | [Smallest Non-Zero Number](Smallest%20Non-Zero%20Number) | - | [View Solution](Smallest%20Non-Zero%20Number) |
 | Daily | [Numbers with Given Digit Sum](Numbers%20with%20Given%20Digit%20Sum) | Medium | [View Solution](Numbers%20with%20Given%20Digit%20Sum) |
 | Daily | [Longest Bitonic Subarray](Longest%20Bitonic%20Subarray) | - | [View Solution](Longest%20Bitonic%20Subarray) |
