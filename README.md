@@ -20,11 +20,12 @@ Each solution is organized systematically. You can find solutions categorized by
 ## 📈 Consistency Tracker
 
 | *Date* | *Problem Name* | *Difficulty* | *Solution Link* |
-| Daily | [Cut Matrix](Difficulty:%20Hard/%20Cut%20Matrix) | 🔴 Hard | [View Solution](Difficulty:%20Hard/%20Cut%20Matrix) |
-| Daily | [Max Absolute Diff of Two Subarrays](Difficulty:%20Medium) | 🟡 Medium | [View Solution](Difficulty:%20Medium) |
+| ----- | ----- | ----- | ----- |
+| Daily | [Cut Matrix](Cut%20Matrix) | 🔴 Hard | [View Solution](20Cut%20Matrix) |
+| Daily | [Max Absolute Diff of Two Subarrays](Max%20Absolute%20Diff%20of%20Two%20Subarrays) | 🟡 Medium | [View Solution](Difficulty:%20Medium) |
 | Daily | [Smallest Non-Zero Number](Smallest%20Non-Zero%20Number) | 🟢 Easy | [View Solution](Smallest%20Non-Zero%20Number) |
 | Daily | [Longest Bitonic Subarray](Longest%20Bitonic%20Subarray) | 🟡 Medium | [View Solution](Longest%20Bitonic%20Subarray) |
-| Daily | [Numbers with Given Digit Sum](Numbers%20with%20Given%20Digit%20Sum) | 🟡 Medium | [View Solution](Numbers%20with%20Given%20Digit%20Sum) |
+| Daily | [Numbers with Given Digit Sum](Numbers%20with%20Given%20Digit%20Sum) |🟡 Medium | [View Solution](Numbers%20with%20Given%20Digit%20Sum) |
 ## 🌟 Connect with Me
 
 If you find this repository helpful, feel free to give it a ⭐!
