@@ -19,7 +19,7 @@ Each solution is organized systematically. You can find solutions categorized by
 
 ## 📈 Consistency Tracker
 
-| Date | Problem Name | Difficulty | Solution Link |
+| *Date* | *Problem Name* | *Difficulty* | *Solution Link* |
 | ----- | ----- | ----- | ----- |
 | Daily | [Cut Matrix](Difficulty:%20Hard/%20Cut%20Matrix) | 🔴 Hard | [View Solution](Difficulty:%20Hard/%20Cut%20Matrix) |
 | Daily | [Max Absolute Diff of Two Subarrays](Difficulty:%20Medium) | 🟡 Medium | [View Solution](Difficulty:%20Medium) |
