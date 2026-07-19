@@ -26,6 +26,7 @@ Each solution is organized systematically. You can find solutions categorized by
 | Daily | [Smallest Non-Zero Number](Smallest%20Non-Zero%20Number) | 🟢 Easy | [View Solution](Smallest%20Non-Zero%20Number) |
 | Daily | [Longest Bitonic Subarray](Longest%20Bitonic%20Subarray) | 🟡 Medium | [View Solution](Longest%20Bitonic%20Subarray) |
 | Daily | [Numbers with Given Digit Sum](Numbers%20with%20Given%20Digit%20Sum) |🟡 Medium | [View Solution](Numbers%20with%20Given%20Digit%20Sum) |
+| Daily | [Mountain Subarray Queries](Mountain%20Subarray%20Queries) |🟡 Medium | [View Solution](Mountain%20Subarray%20Queries) |
 ## 🌟 Connect with Me
 
 If you find this repository helpful, feel free to give it a ⭐!
