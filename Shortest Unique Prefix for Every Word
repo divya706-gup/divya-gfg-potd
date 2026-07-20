@@ -1,0 +1,58 @@
+#include <vector>
+#include <string>
+
+using namespace std;
+
+struct TrieNode {
+    TrieNode* children[26];
+    int freq;
+    TrieNode() {
+        freq = 0;
+        for (int i = 0; i < 26; i++) {
+            children[i] = nullptr;
+        }
+    }
+};
+
+class Solution {
+    void insert(TrieNode* root, const string& word) {
+        TrieNode* curr = root;
+        for (char ch : word) {
+            int idx = ch - 'a';
+            if (!curr->children[idx]) {
+                curr->children[idx] = new TrieNode();
+            }
+            curr = curr->children[idx];
+            curr->freq++;
+        }
+    }
+
+    string getUniquePrefix(TrieNode* root, const string& word) {
+        TrieNode* curr = root;
+        string prefix = "";
+        for (char ch : word) {
+            int idx = ch - 'a';
+            prefix += ch;
+            curr = curr->children[idx];
+            if (curr->freq == 1) {
+                break;
+            }
+        }
+        return prefix;
+    }
+
+public:
+    vector<string> findPrefixes(vector<string>& arr) {
+        TrieNode* root = new TrieNode();
+        for (const string& word : arr) {
+            insert(root, word);
+        }
+        
+        vector<string> result;
+        for (const string& word : arr) {
+            result.push_back(getUniquePrefix(root, word));
+        }
+        
+        return result;
+    }
+};
