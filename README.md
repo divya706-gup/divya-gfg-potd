@@ -28,6 +28,9 @@ Each solution is organized systematically. You can find solutions categorized by
 | Daily | [Numbers with Given Digit Sum](Numbers%20with%20Given%20Digit%20Sum) | 🟡 Medium | [View Solution](Numbers%20with%20Given%20Digit%20Sum) |
 | Daily | [Mountain Subarray Queries](Mountain%20Subarray%20Queries) | 🟡 Medium | [View Solution](Mountain%20Subarray%20Queries) |
 | Daily | [Shortest Unique Prefix for Every Word](Shortest%20Unique%20Prefix%20for%20Every%20Word) | 🔴 Hard  | [View Solution](Shortest%20Unique%20Prefix%20for%20Every%20Word) |
+| Daily | [Maximum Reachable Index Difference](Maximum%20Reachable%20Index%20Difference) |🟡 Medium |[View Solution](Maximum%20Reachable%20Index%20Difference) |
+
+
 ## 🌟 Connect with Me
 
 If you find this repository helpful, feel free to give it a ⭐!
