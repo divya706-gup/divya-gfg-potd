@@ -1,0 +1,48 @@
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    int maxIndexDifference(string &s) {
+        int n = s.size();
+        
+        int first_a = -1;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == 'a') {
+                first_a = i;
+                break;
+            }
+        }
+        
+        if (first_a == -1) return -1;
+        
+        vector<int> last_occ(26, -1);
+        for (int i = 0; i < n; i++) {
+            last_occ[s[i] - 'a'] = i;
+        }
+        
+        int ans = 0; // Ending at 'a' gives max index difference 0
+        int min_reach = first_a;
+        
+        for (int c = 1; c < 26; c++) {
+            int next_min_reach = -1;
+            
+            for (int i = min_reach + 1; i < n; i++) {
+                if (s[i] - 'a' == c) {
+                    next_min_reach = i;
+                    break;
+                }
+            }
+            
+            if (next_min_reach == -1) break;
+            
+            min_reach = next_min_reach;
+            ans = max(ans, last_occ[c] - first_a);
+        }
+        
+        return ans;
+    }
+};
