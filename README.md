@@ -29,6 +29,8 @@ Each solution is organized systematically. You can find solutions categorized by
 | Daily | [Mountain Subarray Queries](Mountain%20Subarray%20Queries) | 🟡 Medium | [View Solution](Mountain%20Subarray%20Queries) |
 | Daily | [Shortest Unique Prefix for Every Word](Shortest%20Unique%20Prefix%20for%20Every%20Word) | 🔴 Hard  | [View Solution](Shortest%20Unique%20Prefix%20for%20Every%20Word) |
 | Daily | [Maximum Reachable Index Difference](Maximum%20Reachable%20Index%20Difference) |🟡 Medium |[View Solution](Maximum%20Reachable%20Index%20Difference) |
+| Daily | [Minimum Deletions to Make Sorted ](Minimum%20Deletions%20to%20Make%20Sorted)  |🟢 Easy   |[View Solution](Minimum%20Deletions%20to%20Make%20Sorted) |
+
 
 
 ## 🌟 Connect with Me
