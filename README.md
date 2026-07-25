@@ -31,6 +31,11 @@ Each solution is organized systematically. You can find solutions categorized by
 | Daily | [Maximum Reachable Index Difference](Maximum%20Reachable%20Index%20Difference) |🟡 Medium |[View Solution](Maximum%20Reachable%20Index%20Difference) |
 | Daily | [Minimum Deletions to Make Sorted ](Minimum%20Deletions%20to%20Make%20Sorted)  |🟢 Easy   |[View Solution](Minimum%20Deletions%20to%20Make%20Sorted)| 
 | Daily | [Check Preorder of BST](Check%20Preorder%20of%20BST) |🟡 Medium |[View Solution](Check%20Preorder%20of%20BST) |
+| Daily | [Longest Consecutive Path in Binary tree](Longest%20Consecutive%20Path%20in%20Binary%20tree) |🟡 Medium | [View Solution](Longest%20Consecutive%20Path%20in%20Binary%20tree) |
+| Daily | [Max Sum Square Sub-Matrix of Size k](Max%20Sum%20Square%20Sub-Matrix%20of%20Size%20k) |🟡 Medium | [View Solution](Max%20Sum%20Square%20Sub-Matrix%20of%20Size%20k) |
+
+
+
 
 
 ## 🌟 Connect with Me
