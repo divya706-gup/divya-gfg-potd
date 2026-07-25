@@ -1,0 +1,40 @@
+/* Structure of Binary Tree Node
+class Node {
+  public:
+    int data;
+    Node* left;
+    Node* right;
+
+    Node(int val) {
+        data = val;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+*/
+class Solution {
+  public:
+    void dfs(Node* root,int expectedVal,int currLen,int& maxLen){
+        if(root==NULL){
+            return ;
+        }
+        if (root->data == expectedVal) {
+            currLen++;
+        } else {
+            currLen = 1;
+        }
+        maxLen = max(maxLen, currLen);
+        dfs(root->left, root->data + 1, currLen, maxLen);
+        dfs(root->right, root->data + 1, currLen, maxLen);
+    }
+    
+    int longestConsecutive(Node* root) {
+        // code here
+        if(root==NULL){
+            return -1;
+        }
+        int maxLen = 0;
+        dfs(root, root->data, 0, maxLen);
+        return (maxLen > 1) ? maxLen : -1;
+    }
+};
