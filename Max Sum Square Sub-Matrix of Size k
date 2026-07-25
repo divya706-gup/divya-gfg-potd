@@ -1,0 +1,21 @@
+class Solution {
+  public:
+    int maximumSum(vector<vector<int>>& mat, int k) {
+        // code here
+        int n=mat.size();
+        vector<vector<int>>prefixSum(n+1,vector<int>(n+1,0));
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                prefixSum[i][j]=mat[i-1][j-1]+prefixSum[i-1][j]+prefixSum[i][j-1]-prefixSum[i-1][j-1];
+            }
+        }
+        int result=INT_MIN ;
+        for(int i=k;i<=n;i++){
+            for(int j=k;j<=n;j++){
+                int sum = prefixSum [i][j] - prefixSum[i - k][j] - prefixSum[i][j - k] + prefixSum[i - k][j - k];
+                result = max(result, sum);
+            }
+        }
+        return result;
+    }
+};
