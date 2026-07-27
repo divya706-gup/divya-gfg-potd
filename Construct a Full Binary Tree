@@ -1,0 +1,42 @@
+/* Structure of Binary Tree Node
+class Node {
+	public:
+	int data;
+	Node *left;
+	Node *right;
+	
+	Node(int val) {
+		data = val;
+		left = right = nullptr;
+	}
+}; */
+
+class Solution {
+	public:
+	Node* buildTree(int& preIndex, int l, int h, vector<int> &pre, vector<int> &preMirror) {
+		if (preIndex >= pre.size() || l>h) {
+			return NULL;
+		}
+		Node* root = new Node(pre[preIndex++]);
+		if (l == h || preIndex >= pre.size()) {
+			return root;
+		}
+		int i;
+		for (i = l; i <= h; i++) {
+			if (preMirror[i] == pre[preIndex]) {
+				break;
+			}
+		}
+		if (i <= h) {
+			root->left = buildTree(preIndex, i, h, pre, preMirror);
+			root->right = buildTree(preIndex, l + 1, i - 1, pre, preMirror);
+		}
+		return root;
+	}
+	Node *constructBinaryTree(vector<int> &pre, vector<int> &preMirror) {
+		// code here
+		int preIndex = 0;
+		return buildTree(preIndex, 0, preMirror.size() - 1, pre, preMirror);
+		
+	}
+};
