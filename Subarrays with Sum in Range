@@ -1,0 +1,25 @@
+class Solution {
+  public:
+    int countAtMost(vector<int>&arr,int x) {
+        if(x<0){
+          return 0;
+        }
+        int left=0;
+        long long sum=0;
+        long long cnt=0;
+        for(int right=0;right<arr.size();right++){
+             sum += arr[right];
+             while(sum>x){
+                sum -= arr[left];
+                left++;
+             }
+             cnt  += (right-left+1);
+             
+        }
+        return cnt;
+    }
+    int countSubarray(vector<int>& arr, int l, int r) {
+        // code here
+        return countAtMost(arr,r)-countAtMost(arr,l-1);
+    }
+};
