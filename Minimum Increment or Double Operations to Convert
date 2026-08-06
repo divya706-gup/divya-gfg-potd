@@ -1,0 +1,26 @@
+class Solution {
+  public:
+    int countMinOperations(vector<int>& arr) {
+        
+        int operations = 0;
+        int maxDoublings = 0;
+        
+        for (int x : arr) {
+            
+          
+            operations += __builtin_popcount(x);
+            
+            
+            int doubles = 0;
+            
+            while (x > 1) {
+                x /= 2;
+                doubles++;
+            }
+            
+            maxDoublings = max(maxDoublings, doubles);
+        }
+        
+        return operations + maxDoublings;
+    }
+};
