@@ -1,0 +1,37 @@
+class Solution {
+  public:
+  const int MOD=1e9+7;
+    vector<int> findWays(vector<vector<int>>& grid) {
+        // code here
+        int n=grid.size();
+        vector<vector<long long>>paths(n,vector<long long>(n,0));
+        vector<vector<int>>maxAdv(n,vector<int>(n,-1));
+        paths[0][0]=1;
+        maxAdv[0][0]=grid[0][0];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(paths[i][j]==0){
+                    continue;
+                }
+                int val=grid[i][j];
+                if(val==1||val==3){
+                    if(j+1<n){
+                        paths[i][j+1]=(paths[i][j+1]+paths[i][j])%MOD;
+                        maxAdv[i][j+1]=max(maxAdv[i][j + 1], maxAdv[i][j] + grid[i][j + 1]);
+                    }
+                }
+                if(val==3||val==2){
+                    if(i+1<n){
+                        paths[i+1][j]=(paths[i+1][j]+paths[i][j])%MOD;
+                      maxAdv[i + 1][j] = max(maxAdv[i + 1][j], maxAdv[i][j] + grid[i + 1][j]);
+                    }
+                    
+                }
+            }
+        }
+            if(paths[n-1][n-1]==0){
+                return{0,0};
+            }
+            return {(int)paths[n-1][n-1],maxAdv[n-1][n-1]};
+        } 
+    };
