@@ -29,10 +29,10 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 10** | [Numbers with Given Digit Sum](./Numbers%20with%20Given%20Digit%20Sum) | 🟡 Medium | [View Code](./Numbers%20with%20Given%20Digit%20Sum) | Jul 29, 2026 |
 | **Day 11** | [Shortest Unique Prefix for Every Word](./Shortest%20Unique%20Prefix%20for%20Every%20Word) | 🔴 Hard | [View Code](./Shortest%20Unique%20Prefix%20for%20Every%20Word) | Jul 30, 2026 |
 | **Day 12** | [Construct a Full Binary Tree](./Construct%20a%20Full%20Binary%20Tree) | 🟡 Medium | [View Code](./Construct%20a%20Full%20Binary%20Tree) | Jul 31, 2026 |
-| **Day 13** | [Longest Consecutive Path in Binary tree](./Longest%20Consecutive%20Path%20in%20Binary%20tree) | 🟡 Medium | [View Code](./Longest%20Consecutive%20Path%20in%20Binary%20tree) | Aug 01, 2026 |
-| **Day 14** | [Edit Distance](./Edit%20Distance) | 🔴 Hard | [View Code](./Edit%20Distance) | Aug 02, 2026 |
-| **Day 15** | [The Celebrity Problem](./The%20Celebrity%20Problem) | 🟡 Medium | [View Code](./The%20Celebrity%20Problem) | Aug 03, 2026 |
-| **Day 16** | [Validate an IP Address](./Validate%20an%20IP%20Address) | 🟢 Easy | [View Code](./Validate%20an%20IP%20Address) | Aug 04, 2026 |
+| **Day 13** | [Max After m Range Increments](./Max%20After%20m%20Range%20Increments) | 🟡 Medium | [View Code](./Max%20After%20m%20Range%20Increments) | Aug 01, 2026 |
+| **Day 14** | [Sequences where Adjacent Divide](./Sequences%20where%20Adjacent%20Divide) | 🟡 Medium | [View Code](./Sequences%20where%20Adjacent%20Divide) | Aug 02, 2026 |
+| **Day 15** | [Max Sum Subarray of Size at least K](./Max%20Sum%20Subarray%20of%20Size%20at%20least%20K) | 🟡 Medium | [View Code](./Max%20Sum%20Subarray%20of%20Size%20at%20least%20K) | Aug 03, 2026 |
+| **Day 16** | [Pairs with Less Than K Diff](./Pairs%20with%20Less%20Than%20K%20Diff) | 🟢 Easy | [View Code](./Pairs%20with%20Less%20Than%20K%20Diff) | Aug 04, 2026 |
 | **Day 17** | [Subarrays with Sum in Range](./Subarrays%20with%20Sum%20in%20Range) | 🔴 Hard | [View Code](./Subarrays%20with%20Sum%20in%20Range) | Aug 05, 2026 |
 | **Day 18** | [Minimum Increment or Double Operations to Convert](./Minimum%20Increment%20or%20Double%20Operations%20to%20Convert) | 🟡 Medium | [View Code](./Minimum%20Increment%20or%20Double%20Operations%20to%20Convert) | Aug 06, 2026 |
 | **Day 19** | [Friends Pairing Problem](./Friends%20Pairing%20Problem) | 🟡 Medium | [View Code](./Friends%20Pairing%20Problem) | Aug 07, 2026 |
