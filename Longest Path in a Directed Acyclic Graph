@@ -1,0 +1,48 @@
+class Solution {
+  public:
+    
+    vector<int> maxDistance(int V, int src, vector<vector<int>> &edges) {
+        // code here
+        vector<vector<pair<int,int>>>adj(V);
+        vector<int>indegree(V,0);
+        for(auto edge :edges){
+            int u=edge[0];
+            int v=edge[1];
+            int w=edge[2];
+            adj[u].push_back({v,w});
+            indegree[v]++;
+        }
+        queue<int>q;
+        for(int i=0;i<V;i++){
+            if(indegree[i]==0){
+                q.push(i);
+            }
+        }
+        vector<int>topoOrder;
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+            topoOrder.push_back(node);
+            for(auto it:adj[node]){
+                int v=it.first;
+                if(--indegree[v]==0){
+                    q.push(v);
+                }
+            }
+        }
+        vector<int>dist(V,INT_MIN);
+        dist[src]=0;
+        for(int node:topoOrder){
+            if(dist[node]==INT_MIN){
+                continue;
+            }
+            for(auto it:adj[node]){
+                int v=it.first;
+                int w=it.second;
+                dist[v]=max(dist[v],dist[node]+w);
+            }
+        }
+        return dist;
+    }
+    
+};
