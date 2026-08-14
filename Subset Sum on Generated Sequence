@@ -1,0 +1,22 @@
+class Solution {
+  public:
+    bool isPossible(vector<int>& arr, int s, int x) {
+        // code here
+        vector<int>sequence;
+        sequence.push_back(s);
+        long long prefixSum=s;
+        for(int num : arr){
+            long long curr=prefixSum+num;
+            sequence.push_back(curr);
+            prefixSum += curr;
+        }
+        long long target=x;
+        for(int i=sequence.size()-1;i>=0;i--){
+            if(sequence[i]<=target){
+                prefixSum -= sequence[i];
+                target -= sequence[i];
+            }
+        }
+        return target==0;
+    }
+};
