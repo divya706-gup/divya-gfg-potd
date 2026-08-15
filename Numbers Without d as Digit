@@ -1,0 +1,36 @@
+class Solution {
+  public:
+    long long dp[12][2][2];
+    string s;
+    int digitToAvoid;
+    long long solve(int position,int tight,int started){
+        if(position==s.length()){
+            return started ?1:0;
+        }
+        if(dp[position][tight][started]!=-1){
+            return dp[position][tight][started];
+        }
+        long long ans=0;
+       
+        int limit=tight?( s[position]-'0'):9;
+        for(int digit=0;digit<=limit;digit++){
+            int newStarted =started||digit!=0;
+            if(digit==digitToAvoid && newStarted){
+                continue;
+            }
+            int newTight=tight && (digit==limit);
+            ans += solve(position+1,newTight,newStarted);
+        }
+        return dp[position][tight][started]=ans;
+    }
+    int countWithout(int n, int d) {
+        // code here
+        if(n<=0){
+            return 0;
+        }
+         s=to_string (n);
+        digitToAvoid=d;
+        memset(dp,-1,sizeof(dp));
+        return solve(0,1,0);
+    }
+};
