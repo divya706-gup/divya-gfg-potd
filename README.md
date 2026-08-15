@@ -43,3 +43,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 24** | [Adventure in a Maze](./Adventure%20in%20a%20Maze) | 🟡 Medium | [View Code](./Adventure%20in%20a%20Maze) | Aug 12, 2026 |
 | **Day 25** | [Longest Path in a Directed Acyclic Graph](./Longest%20Path%20in%20a%20Directed%20Acyclic%20Graph) | 🔴 Hard | [View Code](./Longest%20Path%20in%20a%20Directed%20Acyclic%20Graph) | Aug 13, 2026 |
 | **Day 26** | [Subset Sum on Generated Sequence](./Subset%20Sum%20on%20Generated%20Sequence) | 🟡 Medium | [View Code](./Subset%20Sum%20on%20Generated%20Sequence) | Aug 14, 2026 |
+| **Day 27** | [Numbers Without d as Digit](./Numbers%20Without%20d%20as%20Digit) | 🟡 Medium | [View Code](./Numbers%20Without%20d%20as%20Digit) | Aug 15, 2026 |
