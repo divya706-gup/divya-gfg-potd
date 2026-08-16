@@ -1,0 +1,39 @@
+class Solution {
+  public:
+    int minProd(vector<int>& arr) {
+        // code here
+        int negativeCount=0;
+        int product=1;
+        int smallestPositive=INT_MAX;
+        int smallestNegative=INT_MIN;
+        bool zeroN=false;
+        for(int x:arr){
+            if(x==0){
+                zeroN=true;
+                continue;
+            }
+             if(x<0){
+                negativeCount++;
+                
+                smallestNegative=max(smallestNegative,x);
+                
+            }
+            else{
+                
+                smallestPositive=min(smallestPositive,x);
+            }
+            product *=x;
+        }
+       if(zeroN&& negativeCount==0){
+            return 0;
+        }
+        if(negativeCount==0){
+            return smallestPositive;
+        }
+        
+         if(negativeCount%2==0){
+             product /=smallestNegative;
+        }
+        return product;
+   }
+};
