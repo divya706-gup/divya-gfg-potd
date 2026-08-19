@@ -47,3 +47,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 28** | [Min Product Subset](./Min%20Product%20Subset) | 🟡 Medium | [View Code](./Min%20Product%20Subset) | Aug 16, 2026 |
 | **Day 29** | [Snake and Ladder Problem](./Snake%20and%20Ladder%20Problem) | 🟡 Medium | [View Code](./Snake%20and%20Ladder%20Problem) | Aug 17, 2026 |
 | **Day 30** | [Secret Cipher](./Secret%20Cipher) | 🔴 Hard | [View Code](./Secret%20Cipher) | Aug 18, 2026 |
+| **Day 31** | [Triplets with Sum in Range](./Triplets%20with%20Sum%20in%20Range) | 🟡 Medium | [View Code](./Triplets%20with%20Sum%20in%20Range) | Aug 19, 2026 |
