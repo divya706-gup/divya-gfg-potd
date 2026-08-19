@@ -1,0 +1,30 @@
+class Solution {
+	public:
+	int countTriplets(vector<int> &arr, int l, int r) {
+		// code here
+		sort(arr.begin(), arr.end());
+		return countTriplet(arr, r) - countTriplet(arr, l - 1);
+	}
+	int countTriplet(vector<int>&arr, int target) {
+		int n = arr.size();
+		int count = 0;
+		
+		int j, k;
+		for (int i = 0; i<n - 2; i++) {
+			j = i + 1;
+			k = n - 1;
+			while (j<k) {
+				int sum = arr[i]+arr[j]+arr[k];
+				if (sum <= target) {
+					count += (k - j);
+					j++;
+				}
+				else {
+					k--;
+				}
+			}
+			
+		}
+		return count;
+	}
+};
