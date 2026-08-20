@@ -1,0 +1,35 @@
+/* Structure of Binary Tree Node
+class Node {
+  public:
+    int data;
+    Node *left;
+    Node *right;
+    Node(int val) {
+        data = val;
+        left = right = nullptr;
+    }
+};*/
+
+class Solution {
+  public:
+    int ans=INT_MIN;
+    int solve(Node* root){
+        if(root==NULL){
+            return INT_MAX;
+        }
+        if(root->left==NULL && root->right==NULL){
+            return root->data;
+        }
+        int minleft=solve(root->left);
+        int minRight=solve(root->right);
+        int minDescendant=min(minleft,minRight);
+        ans=max(ans,root->data-minDescendant);
+        return min(root->data,minDescendant);
+    }
+    
+    int maxDiff(Node* root) {
+        // code here
+        solve (root);
+        return ans;
+    }
+};
