@@ -1,0 +1,33 @@
+class Solution {
+	public:
+	int transform(string &s1, string &s2) {
+		// code here
+		if (s1.length() != s2.length()) {
+			return - 1;
+		}
+		int n = s1.length();
+		unordered_map<char, int>mp;
+		for (int i = 0; i<n; i++) {
+			mp[s1[i]]++;
+			mp[s2[i]]--;
+		}
+		for (auto m:mp) {
+			if (m.second != 0) {
+				return - 1;
+			}
+		}
+		int i = n - 1, j = n - 1;
+		int res = 0;
+		while (i >= 0 && j >= 0) {
+			while (i >= 0 && s1[i] != s2[j]) {
+				res++;
+				i--;
+			}
+			if (i >= 0) {
+				i--;
+				j--;
+			}
+		}
+		return res;
+	}
+};
