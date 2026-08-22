@@ -1,0 +1,66 @@
+/* Structure of Binary Tree Node
+class Node {
+	public:
+	int data;
+	Node *left;
+	Node *right;
+	
+	Node(int val) {
+		data = val;
+		left = right = nullptr;
+	}
+}; */
+
+class Solution {
+	public:
+	bool findPath(Node* root, int value, vector<int>& path) {
+		if (root == NULL) {
+			return false;
+		}
+		if (root->data == value) {
+			return true;
+		}
+		path.push_back(0);
+		if (findPath(root->left, value, path)) {
+			return true;
+		}
+		path.pop_back();
+		path.push_back(1);
+		if (findPath(root->right, value, path)) {
+			return true;
+		}
+		path.pop_back();
+		return false;
+	}
+	int countTurns(vector<int>& path) {
+		int turns = 0;
+		for (int i = 1; i<path.size(); i++) {
+			if (path[i] != path[i - 1]) {
+				turns++;
+			}
+		}
+		return turns;
+	}
+	int numberOfTurns(Node* root, int p, int q) {
+		// code here
+		vector<int>pathP, pathQ;
+		findPath(root, p, pathP);
+		findPath(root, q, pathQ);
+		int i = 0;
+		while (i<pathP.size() && i<pathQ.size() && pathP[i] == pathQ[i]) {
+			i++;
+		}
+		vector<int>path;
+		for (int j = pathP.size() - 1; j >= i; j--) {
+			path.push_back(pathP[j]);
+		}
+		for (int j = i; j < pathQ.size(); j++) {
+			path.push_back(pathQ[j]);
+		}
+		int turns = countTurns(path);
+		if (turns == 0) {
+			return - 1;
+		}
+		return turns;
+	}
+};
