@@ -50,3 +50,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 31** | [Triplets with Sum in Range](./Triplets%20with%20Sum%20in%20Range) | 🟡 Medium | [View Code](./Triplets%20with%20Sum%20in%20Range) | Aug 19, 2026 |
 | **Day 32** | [Node and Ancestor Max Diff](./Node%20and%20Ancestor%20Max%20Diff) | 🟡 Medium | [View Code](./Node%20and%20Ancestor%20Max%20Diff) | Aug 20, 2026 |
 | **Day 33** | [Transform String](./Transform%20String) | 🟡 Medium | [View Code](./Transform%20String) | Aug 21, 2026 |
+| **Day 34** | [Number of Turns in Binary Tree](./Number%20of%20Turns%20in%20Binary%20Tree) | 🔴 Hard | [View Code](./Number%20of%20Turns%20in%20Binary%20Tree) | Aug 22, 2026 |
