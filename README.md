@@ -52,3 +52,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 33** | [Transform String](./Transform%20String) | 🟡 Medium | [View Code](./Transform%20String) | Aug 21, 2026 |
 | **Day 34** | [Number of Turns in Binary Tree](./Number%20of%20Turns%20in%20Binary%20Tree) | 🔴 Hard | [View Code](./Number%20of%20Turns%20in%20Binary%20Tree) | Aug 22, 2026 |
 | **Day 35** | [Geek in a Maze](./Geek%20in%20a%20Maze) | 🔴 Hard | [View Code](./Geek%20in%20a%20Maze) | Aug 23, 2026 |
+| **Day 36** | [Count Prefix-Balanced Binary Strings](./Count%20Prefix-Balanced%20Binary%20Strings) | 🟢 Easy | [View Code](./Count%20Prefix-Balanced%20Binary%20Strings) | Aug 24, 2026 |
