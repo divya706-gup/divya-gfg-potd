@@ -54,3 +54,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 35** | [Geek in a Maze](./Geek%20in%20a%20Maze) | 🔴 Hard | [View Code](./Geek%20in%20a%20Maze) | Aug 23, 2026 |
 | **Day 36** | [Count Prefix-Balanced Binary Strings](./Count%20Prefix-Balanced%20Binary%20Strings) | 🟢 Easy | [View Code](./Count%20Prefix-Balanced%20Binary%20Strings) | Aug 24, 2026 |
 | **Day 37** | [Minimum Moves to Sort Permutation](./Minimum%20Moves%20to%20Sort%20Permutation) | 🟢 Easy | [View Code](./Minimum%20Moves%20to%20Sort%20Permutation) | Aug 25, 2026 |
+| **Day 38** | [Negative Weight Cycle](./Negative%20Weight%20Cycle) | 🟡 Medium | [View Code](./Negative%20Weight%20Cycle) | Aug 26, 2026 |
