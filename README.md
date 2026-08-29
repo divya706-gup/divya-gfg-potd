@@ -57,3 +57,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 38** | [Negative Weight Cycle](./Negative%20Weight%20Cycle) | 🟡 Medium | [View Code](./Negative%20Weight%20Cycle) | Aug 26, 2026 |
 | **Day 39** | [Largest Rectangle with Column Swaps](./Largest%20Rectangle%20with%20Column%20Swaps) | 🟡 Medium | [View Code](./Largest%20Rectangle%20with%20Column%20Swaps) | Aug 27, 2026 |
 | **Day 40** | [Minimum Cost Selection](./Minimum%20Cost%20Selection) | 🟡 Medium | [View Code](./Minimum%20Cost%20Selection) | Aug 28, 2026 |
+| **Day 41** | [Count Subsequences Divisible by n](./Count%20Subsequences%20Divisible%20by%20n) | 🟡 Medium | [View Code](./Count%20Subsequences%20Divisible%20by%20n) | Aug 29, 2026 |
