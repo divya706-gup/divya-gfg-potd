@@ -1,0 +1,22 @@
+class Solution {
+	public:
+	int countSubsequences(string& s, int n) {
+		// code here
+		int MOD = 1e9 + 7;
+		vector<int> dp(n, 0);
+		for (char ch : s)
+			{
+			int digit = ch - '0';
+			vector<int> curr(dp);
+			curr[digit % n] = (curr[digit % n] + 1) % MOD;
+			for (int rem = 0; rem < n; rem++)
+				{
+				int newRem = (rem * 10 + digit) % n;
+				curr[newRem] = (curr[newRem] + dp[rem]) % MOD;
+			}
+			dp = curr;
+		}
+		
+		return dp[0];
+	}
+};
