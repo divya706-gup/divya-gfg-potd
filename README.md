@@ -59,3 +59,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 40** | [Minimum Cost Selection](./Minimum%20Cost%20Selection) | 🟡 Medium | [View Code](./Minimum%20Cost%20Selection) | Aug 28, 2026 |
 | **Day 41** | [Count Subsequences Divisible by n](./Count%20Subsequences%20Divisible%20by%20n) | 🟡 Medium | [View Code](./Count%20Subsequences%20Divisible%20by%20n) | Aug 29, 2026 |
 | **Day 42** | [Marks from Ranks](./Marks%20from%20Ranks) | 🟡 Medium | [View Code](./Marks%20from%20Ranks) | Aug 30, 2026 |
+| **Day 43** | [Minimum Cost for n Characters](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | 🟡 Medium | [View Code](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | Aug 31, 2026 |
