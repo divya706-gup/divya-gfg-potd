@@ -60,3 +60,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 41** | [Count Subsequences Divisible by n](./Count%20Subsequences%20Divisible%20by%20n) | 🟡 Medium | [View Code](./Count%20Subsequences%20Divisible%20by%20n) | Aug 29, 2026 |
 | **Day 42** | [Marks from Ranks](./Marks%20from%20Ranks) | 🟡 Medium | [View Code](./Marks%20from%20Ranks) | Aug 30, 2026 |
 | **Day 43** | [Minimum Cost for n Characters](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | 🟡 Medium | [View Code](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | Aug 31, 2026 |
+| **Day 44** | [Count Palindromic Strings with Constraints](./Count%20Palindromic%20Strings%20with%20Constraints) | 🟡 Medium | [View Code](./Count%20Palindromic%20Strings%20with%20Constraints) | Sep 01, 2026 |
