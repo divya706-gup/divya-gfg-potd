@@ -1,0 +1,30 @@
+class Solution {
+  public:
+    #define MAX_CHAR 26
+    int solve(int n, string s) {
+        // code here
+        char state[MAX_CHAR]={0};
+        int occupied=0;
+        int rejected=0;
+        for(char ch:s){
+            int idx=ch-'A';
+            if(state[idx]==0){
+                state[idx]=1;
+                if(occupied<n){
+                    occupied++;
+                    state[idx]=2;
+                }
+                else{
+                    rejected++;
+                }
+            }
+            else{
+                if(state[idx]==2){
+                    occupied--;
+                }
+                state[idx]=0;
+            }
+        }
+        return rejected;
+    }
+};
