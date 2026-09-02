@@ -61,3 +61,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 42** | [Marks from Ranks](./Marks%20from%20Ranks) | 🟡 Medium | [View Code](./Marks%20from%20Ranks) | Aug 30, 2026 |
 | **Day 43** | [Minimum Cost for n Characters](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | 🟡 Medium | [View Code](https://www.google.com/search?q=./Minimum%2520Cost%2520for%2520n%2520Characters) | Aug 31, 2026 |
 | **Day 44** | [Count Palindromic Strings with Constraints](./Count%20Palindromic%20Strings%20with%20Constraints) | 🟡 Medium | [View Code](./Count%20Palindromic%20Strings%20with%20Constraints) | Sep 01, 2026 |
+| **Day 45** | [Unoccupied Computers](./Unoccupied%20Computers) | 🟢 Easy | [View Code](./Unoccupied%20Computers) | Sep 02, 2026 |
