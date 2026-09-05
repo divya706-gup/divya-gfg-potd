@@ -64,3 +64,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 45** | [Unoccupied Computers](./Unoccupied%20Computers) | 🟢 Easy | [View Code](./Unoccupied%20Computers) | Sep 02, 2026 |
 | **Day 46** | [Max Adjacent Diffs Sum with 1 Replacements](./Max%20Adjacent%20Diffs%20Sum%20with%201%20Replacements) | 🟡 Medium | [View Code](./Max%20Adjacent%20Diffs%20Sum%20with%201%20Replacements) | Sep 03, 2026 |
 | **Day 47** | [Bird and Max Fruit Gathering](./Bird%20and%20Max%20Fruit%20Gathering) | 🟢 Easy | [View Code](./Bird%20and%20Max%20Fruit%20Gathering) | Sep 04, 2026 |
+| ** Day 48 ** | [Longest Subsequence with Adjacent Diff as 1](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | 🟡 Medium | [View Code](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | Sep 05, 2026 |
