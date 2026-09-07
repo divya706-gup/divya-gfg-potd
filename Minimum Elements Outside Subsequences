@@ -1,0 +1,34 @@
+class Solution {
+	public:
+	int minCount(vector<int>& arr) {
+		// code here
+		int n = arr.size();
+		vector<vector<vector<int>> > dp(n + 1, vector<vector<int>> (102, vector<int>(102, 1e9)));
+		dp[0][0][101] = 0;
+		for (int i = 0; i < n; ++i) {
+			int val = arr[i];
+			for (int inc = 0; inc <= 100; ++inc) {
+				for (int dec = 1; dec <= 101; ++dec) {
+					if (dp[i][inc][dec] == 1e9)
+						continue;
+					int current_cost = dp[i][inc][dec];
+					dp[i + 1][inc][dec] = min(dp[i + 1][inc][dec], current_cost + 1);
+					if (inc == 0 || val > inc) {
+						dp[i + 1][val][dec] = min(dp[i + 1][val][dec], current_cost);
+					}
+					if (dec == 101 || val < dec) {
+						dp[i + 1][inc][val] = min(dp[i + 1][inc][val], current_cost);
+					}
+				}
+			}
+		}
+		int ans = n;
+		for (int inc = 0; inc <= 100; ++inc) {
+			for (int dec = 1; dec <= 101; ++dec) {
+				ans = min(ans, dp[n][inc][dec]);
+			}
+		}
+		
+		return ans;
+	}
+};
