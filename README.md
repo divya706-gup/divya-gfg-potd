@@ -66,3 +66,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 47** | [Bird and Max Fruit Gathering](./Bird%20and%20Max%20Fruit%20Gathering) | 🟢 Easy | [View Code](./Bird%20and%20Max%20Fruit%20Gathering) | Sep 04, 2026 |
 | **Day 48** | [Longest Subsequence with Adjacent Diff as 1](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | 🟡 Medium | [View Code](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | Sep 05, 2026 |
 | **Day 49** | [Sum of Pairwise ANDs](./Sum%20of%20Pairwise%20ANDs) | 🟡 Medium | [View Code](./Sum%20of%20Pairwise%20ANDs) | Sep 06, 2026 |
+| **Day 50** | [Minimum Elements Outside Subsequences](./Minimum%20Elements%20Outside%20Subsequences) | 🔴 Hard | [View Code](./Minimum%20Elements%20Outside%20Subsequences) | Sep 07, 2026 |
