@@ -67,3 +67,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 48** | [Longest Subsequence with Adjacent Diff as 1](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | 🟡 Medium | [View Code](./Longest%20Subsequence%20with%20Adjacent%20Diff%20as%201) | Sep 05, 2026 |
 | **Day 49** | [Sum of Pairwise ANDs](./Sum%20of%20Pairwise%20ANDs) | 🟡 Medium | [View Code](./Sum%20of%20Pairwise%20ANDs) | Sep 06, 2026 |
 | **Day 50** | [Minimum Elements Outside Subsequences](./Minimum%20Elements%20Outside%20Subsequences) | 🔴 Hard | [View Code](./Minimum%20Elements%20Outside%20Subsequences) | Sep 07, 2026 |
+| **Day 51** | [Rotate by 90 Degree](./Rotate%20by%2090%20Degree) | 🟢 Easy | [View Code](./Rotate%20by%2090%20Degree) | Sep 08, 2026 |
