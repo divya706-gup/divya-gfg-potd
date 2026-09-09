@@ -68,3 +68,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 49** | [Sum of Pairwise ANDs](./Sum%20of%20Pairwise%20ANDs) | 🟡 Medium | [View Code](./Sum%20of%20Pairwise%20ANDs) | Sep 06, 2026 |
 | **Day 50** | [Minimum Elements Outside Subsequences](./Minimum%20Elements%20Outside%20Subsequences) | 🔴 Hard | [View Code](./Minimum%20Elements%20Outside%20Subsequences) | Sep 07, 2026 |
 | **Day 51** | [Rotate by 90 Degree](./Rotate%20by%2090%20Degree) | 🟢 Easy | [View Code](./Rotate%20by%2090%20Degree) | Sep 08, 2026 |
+| **Day 52** | [Max Digit Sum Number in 1 to n](./Max%20Digit%20Sum%20Number%20in%201%20to%20n) | 🟢 Easy | [View Code](./Max%20Digit%20Sum%20Number%20in%201%20to%20n) | Sep 09, 2026 |
