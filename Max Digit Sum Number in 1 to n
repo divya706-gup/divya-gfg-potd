@@ -1,0 +1,32 @@
+class Solution {
+	public:
+	int getDigitSum(string num) {
+		int sum = 0;
+		for (char ch:num) {
+			sum += ch - '0';
+		}
+		return sum;
+	}
+	int findMax(int n) {
+		// code Here
+		string s = to_string(n);
+		string best = s;
+		int maxSum = getDigitSum(s);
+		for (int i = 0; i<s.length(); i++) {
+			if (s[i] == '0') {
+				continue;
+			}
+			string temp = s;
+			temp[i] = temp[i]-1;
+			for (int j = i + 1; j<temp.length(); j++) {
+				temp[j] = '9';
+			}
+			int currentSum = getDigitSum(temp);
+			int bestSum = getDigitSum(best);
+			if (currentSum > bestSum || (currentSum == bestSum && stoi(temp) > stoi(best))) {
+				best = temp;
+			}
+		}
+		return stoi(best);
+	}
+};
