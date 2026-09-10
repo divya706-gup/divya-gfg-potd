@@ -1,0 +1,25 @@
+class Solution {
+	public:
+	int pairCount(int x, int y) {
+		// code here
+		int result = 0;
+		if (y%x != 0) {
+			return 0;
+		}
+		int n = y/x;
+		for (int i = 1; i*i <= n; i++) {
+			if (n%i == 0) {
+				int j = n/i;
+				if (std::__gcd(i, j) == 1) {
+					if (i == j) {
+						result += 1;
+					}
+					else {
+						result += 2;
+					}
+				}
+			}
+		}
+		return result;
+	}
+};
