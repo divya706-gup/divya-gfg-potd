@@ -70,3 +70,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 51** | [Rotate by 90 Degree](./Rotate%20by%2090%20Degree) | 🟢 Easy | [View Code](./Rotate%20by%2090%20Degree) | Sep 08, 2026 |
 | **Day 52** | [Max Digit Sum Number in 1 to n](./Max%20Digit%20Sum%20Number%20in%201%20to%20n) | 🟢 Easy | [View Code](./Max%20Digit%20Sum%20Number%20in%201%20to%20n) | Sep 09, 2026 |
 | **Day 53** | [Pairs with Given GCD and LCM](./Pairs%20with%20Given%20GCD%20and%20LCM) | 🟢 Easy | [View Code](./Pairs%20with%20Given%20GCD%20and%20LCM) | Sep 10, 2026 |
+| **Day 54** | [Values with Equal Array Remainders](./Values%20with%20Equal%20Array%20Remainders) | 🟢 Easy | [View Code](./Values%20with%20Equal%20Array%20Remainders) | Sep 11, 2026 |
