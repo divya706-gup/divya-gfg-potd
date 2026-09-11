@@ -1,0 +1,25 @@
+class Solution {
+  public:
+    int sameMod(vector<int> &arr) {
+        // code here
+        int n = arr.size();
+        int g = 0;
+        for(int i=1;i<n;i++){
+           g=std::__gcd(g,abs(arr[i]-arr[0]) );
+           
+        }
+        if(g==0){
+            return -1;
+        }
+        int count=0;
+        for(int i=1;i*i<=g;i++){
+            if(g%i==0){
+                count++;
+                if(i!=g/i){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+};
