@@ -72,3 +72,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 53** | [Pairs with Given GCD and LCM](./Pairs%20with%20Given%20GCD%20and%20LCM) | 🟢 Easy | [View Code](./Pairs%20with%20Given%20GCD%20and%20LCM) | Sep 10, 2026 |
 | **Day 54** | [Values with Equal Array Remainders](./Values%20with%20Equal%20Array%20Remainders) | 🟢 Easy | [View Code](./Values%20with%20Equal%20Array%20Remainders) | Sep 11, 2026 |
 | **Day 55** | [Max Product Subsequence of Size K](./Max%20Product%20Subsequence%20of%20Size%20K) | 🟡 Medium | [View Code](./Max%20Product%20Subsequence%20of%20Size%20K) | Sep 12, 2026 |
+| **Day 56** | [Party in Town](./Party%20in%20Town) | 🟡 Medium | [View Code](./Party%20in%20Town) | Sep 13, 2026 |
