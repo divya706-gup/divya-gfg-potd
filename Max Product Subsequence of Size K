@@ -1,0 +1,46 @@
+#include <vector>
+#include <algorithm>
+
+class Solution {
+public:
+    int maxProduct(std::vector<int>& arr, int k) {
+        int n = arr.size();
+        std::sort(arr.begin(), arr.end());
+
+        int product = 1;
+        int i = 0, j = n - 1;
+
+        // If k is odd, take the largest positive number first
+        if (k % 2 != 0) {
+            product *= arr[j];
+
+            // If the maximum element is negative (or 0), we must choose the k largest numbers
+            if (arr[j] <= 0) {
+                product = 1;
+                for (int m = n - 1; m >= n - k; m--) {
+                    product *= arr[m];
+                }
+                return product;
+            }
+            j--;
+            k--;
+        }
+
+        // Process remaining elements in pairs
+        while (k > 0) {
+            long long leftPair = (long long)arr[i] * arr[i + 1];
+            long long rightPair = (long long)arr[j] * arr[j - 1];
+
+            if (leftPair > rightPair) {
+                product *= (leftPair % 1000000007); // Apply modulo if required by test cases
+                i += 2;
+            } else {
+                product *= (rightPair % 1000000007);
+                j -= 2;
+            }
+            k -= 2;
+        }
+
+        return product;
+    }
+};
