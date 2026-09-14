@@ -1,0 +1,63 @@
+class Solution {
+	public:
+	bool isSafe(vector<vector<int>> &mat, int i, int j) {
+		int n = mat.size();
+		int m = mat[0].size();
+		if (mat[i][j] != 1) {
+			return false;
+		}
+		int rdir[] = {-1, 1, 0, 0};
+		int cdir[] = {0, 0, -1, 1};
+		for (int k = 0; k<4; k++) {
+			int ni = i + rdir[k];
+			int nj = j + cdir[k];
+			if (ni>=0 && ni<n && nj>=0 && nj < m ) {
+				if(mat[ni][nj]==0){
+				    return false;
+				}
+			}
+		}
+		return true;
+	}
+	int shortestPath(vector<vector<int>> &mat) {
+		// code here
+		int r = mat.size();
+		int c = mat[0].size();
+		int rdir[] = {-1, 1, 0, 0};
+		int cdir[] = {0, 0, -1, 1};
+		queue<array<int, 3>> q;
+		vector<vector<bool>> vis(r, vector<bool>(c, false));
+		for (int i = 0; i < r; i++) {
+			for (int j = 0; j < c; j++) {
+				if (!isSafe(mat, i, j)) {
+					vis[i][j] = true;
+				}
+			}
+		}
+		for (int i = 0; i < r; i++) {
+			if (!vis[i][0]) {
+				q.push({i, 0, 1});
+				vis[i][0] = true;
+			}
+		}
+		while (!q.empty()) {
+			auto front = q.front();
+			q.pop();
+			int i = front[0];
+			int j = front[1];
+			int dist = front[2];
+			if (j == c - 1) {
+				return dist;
+			}
+			for (int k = 0; k<4; k++) {
+				int nr = i + rdir[k];
+				int nc = j + cdir[k];
+				if (nr >= 0 && nr<r && nc >= 0 && nc<c  && !vis[nr][nc]) {
+					q.push({nr, nc, dist + 1});
+					vis[nr][nc] = true;
+				}
+			}
+		}
+		return - 1;
+	}
+};
