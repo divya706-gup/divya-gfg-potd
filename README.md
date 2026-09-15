@@ -74,3 +74,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 55** | [Max Product Subsequence of Size K](./Max%20Product%20Subsequence%20of%20Size%20K) | 🟡 Medium | [View Code](./Max%20Product%20Subsequence%20of%20Size%20K) | Sep 12, 2026 |
 | **Day 56** | [Party in Town](./Party%20in%20Town) | 🟡 Medium | [View Code](./Party%20in%20Town) | Sep 13, 2026 |
 | **Day 57** | [Shortest Safe Route in Grid](./Shortest%20Safe%20Route%20in%20Grid) | 🟡 Medium | [View Code](./Shortest%20Safe%20Route%20in%20Grid) | Sep 14, 2026 |
+| **Day 58** | [Visit Leaves with Budget](./Visit%20Leaves%20with%20Budget) | 🟢 Easy | [View Code](./Visit%20Leaves%20with%20Budget) | Sep 15, 2026 |
