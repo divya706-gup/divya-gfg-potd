@@ -1,0 +1,40 @@
+/* Binary Tree Node Structure
+class Node {
+public:
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int val) {
+        data = val;
+        left = right = nullptr;
+    }
+}; 
+*/
+
+class Solution {
+  public:
+    int ans=INT_MAX;
+    Node* prev;
+    void solve(Node  *root){
+        if(root==NULL){
+            return ;
+        }
+        solve(root->left);
+        if(prev!=nullptr){
+            ans=min(ans,abs(root->data-prev->data));
+        }
+        prev=root;
+        solve(root->right);
+    }
+    int absDiff(Node *root) {
+        // code here
+        ans=INT_MAX;
+        prev=nullptr;
+        if(root==NULL){
+            return 0;
+        }
+        solve(root);
+        return ans;
+    }
+};
