@@ -77,3 +77,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 58** | [Visit Leaves with Budget](./Visit%20Leaves%20with%20Budget) | 🟢 Easy | [View Code](./Visit%20Leaves%20with%20Budget) | Sep 15, 2026 |
 | **Day 59** | [Dominant Pairs](./Dominant%20Pairs) | 🟢 Easy | [View Code](./Dominant%20Pairs) | Sep 16, 2026 |
 | **Day 60** | [Min Edge Reversals for Path](./Min%20Edge%20Reversals%20for%20Path) | 🟡 Medium | [View Code](./Min%20Edge%20Reversals%20for%20Path) | Sep 17, 2026 |
+| **Day 61** | [Minimum Absolute Difference In BST](./Minimum%20Absolute%20Difference%20In%20BST) | 🟡 Medium | [View Code](./Minimum%20Absolute%20Difference%20In%20BST) | Sep 18, 2026 |
