@@ -81,3 +81,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 62** | [Min Cost To Make Two Strings Identical](./Min%20Cost%20To%20Make%20Two%20Strings%20Identical) | 🟡 Medium | [View Code](./Min%20Cost%20To%20Make%20Two%20Strings%20Identical) | Sep 19, 2026 |
 | **Day 63** | [Largest Subsquare Surrounded by X](./Largest%20Subsquare%20Surrounded%20by%20X) | 🟡 Medium | [View Code](./Largest%20Subsquare%20Surrounded%20by%20X) | Sep 20, 2026 |
 | **Day 64** | [Check Level Anagrams in Binary Trees](./Check%20Level%20Anagrams%20in%20Binary%20Trees) | 🟡 Medium | [View Code](./Check%20Level%20Anagrams%20in%20Binary%20Trees) | Sep 21, 2026 |
+| **Day 65** | [Longest Matching in Dictionary with Removals](./Longest%20Matching%20in%20Dictionary%20with%20Removals) | 🟡 Medium | [View Code](./Longest%20Matching%20in%20Dictionary%20with%20Removals) | Sep 22, 2026 |
