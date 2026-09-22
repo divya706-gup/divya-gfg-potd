@@ -1,0 +1,30 @@
+class Solution {
+public:
+    string findLongestWord(string &s, vector<string> &d) {
+        vector<vector<int>> pos(26);
+        for (int i = 0; i < s.length(); ++i) {
+            pos[s[i] - 'a'].push_back(i);
+        }
+        string result = "";
+        for (const string &word : d) {
+            int current_pos = -1;
+            bool is_possible = true;
+            for (char c : word) {
+                const auto &vec = pos[c - 'a'];
+                auto it = upper_bound(vec.begin(), vec.end(), current_pos);
+                if (it == vec.end()) {
+                    is_possible = false;
+                    break;
+                }
+                current_pos = *it;
+            }
+            if (is_possible) {
+                if (word.length() > result.length() || 
+                   (word.length() == result.length() && word < result)) {
+                    result = word;
+                }
+            }
+        }
+        return result;
+    }
+};
