@@ -1,0 +1,62 @@
+class Solution {
+public:
+    int maxStackHeight(vector<int>& r, vector<int>& h) {
+        int n = r.size();
+
+        vector<pair<int, int>> discs;
+        for (int i = 0; i < n; i++) {
+            discs.push_back({r[i], h[i]});
+        }
+
+        sort(discs.begin(), discs.end());
+
+        int maxH = 1000;
+        vector<int> bit(maxH + 1, 0);
+
+        auto query = [&](int x) {
+            int ans = 0;
+            while (x > 0) {
+                ans = max(ans, bit[x]);
+                x -= x & -x;
+            }
+            return ans;
+        };
+
+        auto update = [&](int x, int val) {
+            while (x <= maxH) {
+                bit[x] = max(bit[x], val);
+                x += x & -x;
+            }
+        };
+
+        int ans = 0;
+
+        for (int i = 0; i < n; ) {
+            int j = i;
+
+            while (j < n && discs[j].first == discs[i].first) {
+                j++;
+            }
+
+            vector<pair<int, int>> updates;
+
+            for (int k = i; k < j; k++) {
+                int height = discs[k].second;
+
+                int best = query(height - 1);
+                int curr = best + height;
+
+                updates.push_back({height, curr});
+                ans = max(ans, curr);
+            }
+
+            for (auto [height, value] : updates) {
+                update(height, value);
+            }
+
+            i = j;
+        }
+
+        return ans;
+    }
+};
