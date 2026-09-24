@@ -83,3 +83,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 64** | [Check Level Anagrams in Binary Trees](./Check%20Level%20Anagrams%20in%20Binary%20Trees) | 🟡 Medium | [View Code](./Check%20Level%20Anagrams%20in%20Binary%20Trees) | Sep 21, 2026 |
 | **Day 65** | [Longest Matching in Dictionary with Removals](./Longest%20Matching%20in%20Dictionary%20with%20Removals) | 🟡 Medium | [View Code](./Longest%20Matching%20in%20Dictionary%20with%20Removals) | Sep 22, 2026 |
 | **Day 66** | [Pyramid Array with Reduce Operations](./Pyramid%20Array%20with%20Reduce%20Operations) | 🟡 Medium | [View Code](./Pyramid%20Array%20with%20Reduce%20Operations) | Sep 23, 2026 |
+| **Day 67** | [Maximum Height Disc Stack](./Maximum%20Height%20Disc%20Stack) | 🔴 Hard | [View Code](./Maximum%20Height%20Disc%20Stack) | Sep 24, 2026 |
