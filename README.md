@@ -85,3 +85,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 66** | [Pyramid Array with Reduce Operations](./Pyramid%20Array%20with%20Reduce%20Operations) | 🟡 Medium | [View Code](./Pyramid%20Array%20with%20Reduce%20Operations) | Sep 23, 2026 |
 | **Day 67** | [Maximum Height Disc Stack](./Maximum%20Height%20Disc%20Stack) | 🔴 Hard | [View Code](./Maximum%20Height%20Disc%20Stack) | Sep 24, 2026 |
 | **Day 68** | [Box Stacking](./Box%20Stacking) | 🔴 Hard | [View Code](./Box%20Stacking) | Sep 25, 2026 |
+| **Day 69** | [Minimum Cost Pizza Selection](./Minimum%20Cost%20Pizza%20Selection) | 🟡 Medium | [View Code](./Minimum%20Cost%20Pizza%20Selection) | Sep 26, 2026 |
