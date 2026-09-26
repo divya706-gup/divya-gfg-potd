@@ -1,0 +1,28 @@
+class Solution {
+	public:
+	int minimumCost(int x, int s, int m, int l, int cs, int cm, int cl) {
+		// code here
+		int limit = x + l;
+		vector<int>dp(limit + 1, INT_MAX);
+		dp[0] = 0;
+		for (int i = 0; i<limit; i++) {
+			if (dp[i] == INT_MAX) {
+				continue;
+			}
+			if (i + s <= limit) {
+				dp[i + s] = min(dp[i + s], dp[i] + cs);
+			}
+			if (i + m <= limit) {
+				dp[i + m] = min(dp[i + m], dp[i] + cm);
+			}
+			if (i + l <= limit) {
+				dp[i + l] = min(dp[i + l], dp[i] + cl);
+			}
+		}
+		int res = 1e9;
+		for (int i = x; i <= limit; i++) {
+			res = min(res, dp[i]);
+		}
+		return res;
+	}
+};
