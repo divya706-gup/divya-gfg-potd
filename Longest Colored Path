@@ -1,0 +1,73 @@
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+    int maxLen = 0;
+
+    void dfs(int u, int p, const string& s, const vector<vector<int>>& adj, vector<vector<int>>& dp) {
+        if (s[u] == 'R') {
+            dp[u][0] = 1;
+            dp[u][2] = 1;
+        } else {
+            dp[u][1] = 1;
+            dp[u][3] = 1;
+        }
+
+        for (int v : adj[u]) {
+            if (v == p) continue;
+
+            dfs(v, u, s, adj, dp);
+
+            
+            if (s[u] == 'R') {
+                maxLen = max({
+                    maxLen,
+                    dp[u][0] + dp[v][0],                   
+                    dp[u][0] + max(dp[v][2], dp[v][1]),     
+                    dp[u][2] + dp[v][0]                   
+                });
+
+               
+                dp[u][0] = max(dp[u][0], 1 + dp[v][0]);
+                dp[u][2] = max(dp[u][2], 1 + max({dp[v][2], dp[v][1]}));
+            } else { 
+                maxLen = max({
+                    maxLen,
+                    dp[u][1] + dp[v][1],                 
+                    dp[u][1] + max(dp[v][3], dp[v][0]),     
+                    dp[u][3] + dp[v][1]                    
+                });
+
+               
+                dp[u][1] = max(dp[u][1], 1 + dp[v][1]);
+                dp[u][3] = max(dp[u][3], 1 + max({dp[v][3], dp[v][0]}));
+            }
+        }
+
+        maxLen = max({maxLen, dp[u][0], dp[u][1], dp[u][2], dp[u][3]});
+    }
+
+public:
+    int longestPath(string &s, vector<vector<int>> &edges) {
+        int n = s.size();
+        if (n == 0) return 0;
+
+        vector<vector<int>> adj(n);
+        for (const auto& edge : edges) {
+            int u = edge[0] - 1;
+            int v = edge[1] - 1;
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+        }
+
+        maxLen = 1;
+        vector<vector<int>> dp(n, vector<int>(4, 0));
+
+        dfs(0, -1, s, adj, dp);
+
+        return maxLen;
+    }
+};
