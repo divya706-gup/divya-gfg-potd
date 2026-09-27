@@ -86,3 +86,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 67** | [Maximum Height Disc Stack](./Maximum%20Height%20Disc%20Stack) | 🔴 Hard | [View Code](./Maximum%20Height%20Disc%20Stack) | Sep 24, 2026 |
 | **Day 68** | [Box Stacking](./Box%20Stacking) | 🔴 Hard | [View Code](./Box%20Stacking) | Sep 25, 2026 |
 | **Day 69** | [Minimum Cost Pizza Selection](./Minimum%20Cost%20Pizza%20Selection) | 🟡 Medium | [View Code](./Minimum%20Cost%20Pizza%20Selection) | Sep 26, 2026 |
+| **Day 70** | [Longest Colored Path](./Longest%20Colored%20Path) | 🔴 Hard | [View Code](./Longest%20Colored%20Path) | Sep 27, 2026 |
