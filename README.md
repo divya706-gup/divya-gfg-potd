@@ -88,4 +88,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 69** | [Minimum Cost Pizza Selection](./Minimum%20Cost%20Pizza%20Selection) | 🟡 Medium | [View Code](./Minimum%20Cost%20Pizza%20Selection) | Sep 26, 2026 |
 | **Day 70** | [Longest Colored Path](./Longest%20Colored%20Path) | 🔴 Hard | [View Code](./Longest%20Colored%20Path) | Sep 27, 2026 |
 | **Day 71** | [Range GCD Queries](./Range%20GCD%20Queries) | 🟡 Medium | [View Code](./Range%20GCD%20Queries) | Sep 28, 2026 |
-
+| **Day 72** | [Min Steps by Knight](./Min%20Steps%20by%20Knight) | 🟡 Medium | [View Code](./Min%20Steps%20by%20Knight) | Sep 29, 2026 |
