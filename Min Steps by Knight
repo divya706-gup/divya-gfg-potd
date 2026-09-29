@@ -1,0 +1,33 @@
+class Solution {
+public:
+    int minStepToReachTarget(std::vector<int>& knightPos, std::vector<int>& targetPos, int n) {
+        if (knightPos[0] == targetPos[0] && knightPos[1] == targetPos[1]) {
+            return 0;
+        }
+        int dx[] = {-2, -2, -1, -1, 1, 1, 2, 2};
+        int dy[] = {-1, 1, -2, 2, -2, 2, -1, 1};
+        std::vector<std::vector<bool>> visited(n + 1, std::vector<bool>(n + 1, false));
+        std::queue<std::pair<std::pair<int, int>, int>> q;
+        q.push({{knightPos[0], knightPos[1]}, 0});
+        visited[knightPos[0]][knightPos[1]] = true;
+        while (!q.empty()) {
+            auto current = q.front();
+            q.pop();
+            int x = current.first.first;
+            int y = current.first.second;
+            int steps = current.second;
+            if (x == targetPos[0] && y == targetPos[1]) {
+                return steps;
+            }
+            for (int i = 0; i < 8; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                if (nx >= 1 && nx <= n && ny >= 1 && ny <= n && !visited[nx][ny]) {
+                    visited[nx][ny] = true;
+                    q.push({{nx, ny}, steps + 1});
+                }
+            }
+        }
+        return -1;
+    }
+};
