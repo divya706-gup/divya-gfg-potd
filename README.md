@@ -90,3 +90,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 71** | [Range GCD Queries](./Range%20GCD%20Queries) | 🟡 Medium | [View Code](./Range%20GCD%20Queries) | Sep 28, 2026 |
 | **Day 72** | [Min Steps by Knight](./Min%20Steps%20by%20Knight) | 🟡 Medium | [View Code](./Min%20Steps%20by%20Knight) | Sep 29, 2026 |
 | **Day 73** | [Ways to Reach Origin](./Ways%20to%20Reach%20Origin) | 🟢 Easy | [View Code](./Ways%20to%20Reach%20Origin) | Sep 30, 2026 |
+| **Day 74** | [Minimum Time to Finish Project](./Minimum%20Time%20to%20Finish%20Project) | 🟡 Medium | [View Code](./Minimum%20Time%20to%20Finish%20Project) | Oct 01, 2026 |
