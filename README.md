@@ -91,3 +91,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 72** | [Min Steps by Knight](./Min%20Steps%20by%20Knight) | 🟡 Medium | [View Code](./Min%20Steps%20by%20Knight) | Sep 29, 2026 |
 | **Day 73** | [Ways to Reach Origin](./Ways%20to%20Reach%20Origin) | 🟢 Easy | [View Code](./Ways%20to%20Reach%20Origin) | Sep 30, 2026 |
 | **Day 74** | [Minimum Time to Finish Project](./Minimum%20Time%20to%20Finish%20Project) | 🟡 Medium | [View Code](./Minimum%20Time%20to%20Finish%20Project) | Oct 01, 2026 |
+| **Day 75** | [Lexicographically Smallest Rotation](./Lexicographically%20Smallest%20Rotation) | 🔴 Hard | [View Code](./Lexicographically%20Smallest%20Rotation) | Oct 02, 2026 |
