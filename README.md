@@ -94,3 +94,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 75** | [Lexicographically Smallest Rotation](./Lexicographically%20Smallest%20Rotation) | 🔴 Hard | [View Code](./Lexicographically%20Smallest%20Rotation) | Oct 02, 2026 |
 | **Day 76** | [Coils in a Matrix](./Coils%20in%20a%20Matrix) | 🟡 Medium | [View Code](./Coils%20in%20a%20Matrix) | Oct 03, 2026 |
 | **Day 77** | [Perimeter of Shapes in Binary Matrix](./Perimeter%20of%20Shapes%20in%20Binary%20Matrix) | 🟢 Easy | [View Code](./Perimeter%20of%20Shapes%20in%20Binary%20Matrix) | Oct 04, 2026 |
+| **Day 78** | [Your Social Network](./Your%20Social%20Network) | 🟡 Medium | [View Code](./Your%20Social%20Network) | Oct 05, 2026 |
