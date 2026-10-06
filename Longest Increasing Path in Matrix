@@ -1,0 +1,36 @@
+class Solution {
+	public:
+	bool validCell(int i, int j, vector<vector<int>> &matrix, int prev) {
+		if (i >= 0 && i < matrix.size() && j >= 0 &&
+		j < matrix[0].size() && matrix[i][j] > prev) {
+			return true;
+		}
+		return false;
+	}
+	int pathRecurr(vector<vector<int>> &dp, int i, int j, vector<vector<int>> &matrix) {
+		if (dp[i][j] != -1) {
+			return dp[i][j];
+		}
+		int ans = 1;
+		vector<vector<int>> dir = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+		for (auto d:dir) {
+			int x = i + d[0];
+			int y = j + d[1];
+			if (validCell(x, y, matrix, matrix[i][j])) {
+				ans = max(ans, 1 + pathRecurr(dp,x, y, matrix));
+			}
+		}
+		return dp[i][j] = ans;
+	}
+	int longIncPath(vector<vector<int>> &matrix, int n, int m) {
+		// code here
+		int ans = 0;
+		vector<vector<int>> dp(n, vector<int>(m, -1));
+		for (int i = 0; i<n; i++) {
+			for (int j = 0; j<m; j++) {
+				ans = max(ans, pathRecurr(dp, i, j,matrix));
+			}
+		}
+		return ans;
+	}
+};
