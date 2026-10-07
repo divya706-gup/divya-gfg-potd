@@ -95,3 +95,5 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 76** | [Coils in a Matrix](./Coils%20in%20a%20Matrix) | 🟡 Medium | [View Code](./Coils%20in%20a%20Matrix) | Oct 03, 2026 |
 | **Day 77** | [Perimeter of Shapes in Binary Matrix](./Perimeter%20of%20Shapes%20in%20Binary%20Matrix) | 🟢 Easy | [View Code](./Perimeter%20of%20Shapes%20in%20Binary%20Matrix) | Oct 04, 2026 |
 | **Day 78** | [Your Social Network](./Your%20Social%20Network) | 🟡 Medium | [View Code](./Your%20Social%20Network) | Oct 05, 2026 |
+| **Day 79** | [Longest Increasing Path in Matrix](./Longest%20Increasing%20Path%20in%20Matrix) | 🔴 Hard | [View Code](./Longest%20Increasing%20Path%20in%20Matrix) | Oct 06, 2026 |
+| **Day 80** | [Max Path Sum Between Two Leaves](./Max%20Path%20Sum%20Between%20Two%20Leaves) | 🔴 Hard | [View Code](./Max%20Path%20Sum%20Between%20Two%20Leaves) | Oct 07, 2026 |
