@@ -97,3 +97,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 78** | [Your Social Network](./Your%20Social%20Network) | 🟡 Medium | [View Code](./Your%20Social%20Network) | Oct 05, 2026 |
 | **Day 79** | [Longest Increasing Path in Matrix](./Longest%20Increasing%20Path%20in%20Matrix) | 🔴 Hard | [View Code](./Longest%20Increasing%20Path%20in%20Matrix) | Oct 06, 2026 |
 | **Day 80** | [Max Path Sum Between Two Leaves](./Max%20Path%20Sum%20Between%20Two%20Leaves) | 🔴 Hard | [View Code](./Max%20Path%20Sum%20Between%20Two%20Leaves) | Oct 07, 2026 |
+| **Day 81** | [Maximum Frequency with K Increments](./Maximum%20Frequency%20with%20K%20Increments) | 🟡 Medium | [View Code](./Maximum%20Frequency%20with%20K%20Increments) | Oct 08, 2026 |
