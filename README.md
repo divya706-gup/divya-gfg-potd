@@ -99,3 +99,6 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 80** | [Max Path Sum Between Two Leaves](./Max%20Path%20Sum%20Between%20Two%20Leaves) | 🔴 Hard | [View Code](./Max%20Path%20Sum%20Between%20Two%20Leaves) | Oct 07, 2026 |
 | **Day 81** | [Maximum Frequency with K Increments](./Maximum%20Frequency%20with%20K%20Increments) | 🟡 Medium | [View Code](./Maximum%20Frequency%20with%20K%20Increments) | Oct 08, 2026 |
 | **Day 82** | [Minimum Operations to Reach n](./Minimum%20Operations%20to%20Reach%20n) | 🟢 Easy | [View Code](./Minimum%20Operations%20to%20Reach%20n) | Oct 09, 2026 |
+| **Day 83** | [Balancing with Distinct Powers](https://www.geeksforgeeks.org/problems/balancing-pan5038/1) | 🟢 Easy | [View Code](./Balancing%20with%20Distinct%20Powers) | Oct 10, 2026 |
+| **Day 84** | [Sort Two Parts Sorted](https://www.geeksforgeeks.org/problems/sort-two-parts-sorted5742/1) | 🟢 Easy | [View Code](./Sort%20Two%20Parts%20Sorted) | Oct 11, 2026 |
+| **Day 85** | [Minimum Squares with Full Cuts](https://www.geeksforgeeks.org/problems/squares-in-reactangle3340/1) | 🟡 Medium | [View Code](./Minimum%20Squares%20with%20Full%20Cuts) | Oct 12, 2026 |
