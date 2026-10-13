@@ -102,3 +102,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 83** | [Balancing with Distinct Powers](https://www.geeksforgeeks.org/problems/balancing-pan5038/1) | 🟢 Easy | [View Code](./Balancing%20with%20Distinct%20Powers) | Oct 10, 2026 |
 | **Day 84** | [Sort Two Parts Sorted](https://www.geeksforgeeks.org/problems/sort-two-parts-sorted5742/1) | 🟢 Easy | [View Code](./Sort%20Two%20Parts%20Sorted) | Oct 11, 2026 |
 | **Day 85** | [Minimum Squares with Full Cuts](https://www.geeksforgeeks.org/problems/squares-in-reactangle3340/1) | 🟡 Medium | [View Code](./Minimum%20Squares%20with%20Full%20Cuts) | Oct 12, 2026 |
+| **Day 86** | [Problem Name](https://www.geeksforgeeks.org/problems/... ) | 🟡 Medium | [View Code](./Problem%20Name%20URL%20Slug) | Oct 13, 2026 |
