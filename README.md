@@ -103,3 +103,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 84** | [Sort Two Parts Sorted](https://www.geeksforgeeks.org/problems/sort-two-parts-sorted5742/1) | 🟢 Easy | [View Code](./Sort%20Two%20Parts%20Sorted) | Oct 11, 2026 |
 | **Day 85** | [Minimum Squares with Full Cuts](https://www.geeksforgeeks.org/problems/squares-in-reactangle3340/1) | 🟡 Medium | [View Code](./Minimum%20Squares%20with%20Full%20Cuts) | Oct 12, 2026 |
 | **Day 86** | [Problem Name](https://www.geeksforgeeks.org/problems/... ) | 🟡 Medium | [View Code](./Problem%20Name%20URL%20Slug) | Oct 13, 2026 |
+| **Day 87** | [Roll Characters of String](https://www.geeksforgeeks.org/problems/roll-the-characters-of-a-string2127/1) | 🟡 Medium | [View Code](./Roll%20Characters%20of%20String) | Oct 14, 2026 |
