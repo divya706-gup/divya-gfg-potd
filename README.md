@@ -105,3 +105,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 86** | [Problem Name](https://www.geeksforgeeks.org/problems/... ) | 🟡 Medium | [View Code](./Problem%20Name%20URL%20Slug) | Oct 13, 2026 |
 | **Day 87** | [Roll Characters of String](https://www.geeksforgeeks.org/problems/roll-the-characters-of-a-string2127/1) | 🟡 Medium | [View Code](./Roll%20Characters%20of%20String) | Oct 14, 2026 |
 | **Day 88** | [Maximum Without 3 Consecutive Set Bits](https://www.geeksforgeeks.org/problems/geek-hates-too-many-1s--170647/1) | 🟡 Medium | [View Code](./Maximum%20Without%203%20Consecutive%20Set%20Bits) | Oct 15, 2026 |
+| **Day 89** | [Successful Binary Searches Irrespective of Pivot](https://www.geeksforgeeks.org/problems/count-always-found/1) | 🟡 Medium | [View Code](./Successful%20Binary%20Searches%20Irrespective%20of%20Pivot) | Oct 16, 2026 |
