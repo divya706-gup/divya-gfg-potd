@@ -1,0 +1,36 @@
+class Solution {
+	public:
+	bool dfs(int index, vector<int> &arr, vector<int> &state) {
+		int n = arr.size();
+		if (index < 0 || index >= n) {
+			return true;
+		}
+		if (arr[index] == 0){
+			return false;
+		}
+		if (state[index] == 3){
+			return false;
+		}
+		if (state[index] == 1){
+			return false;
+		}
+		state[index] = 1;
+		int nextIndex = index + arr[index];
+		bool good = dfs(nextIndex, arr, state);
+		state[index] = good ? 2 : 3;
+		return good;
+	}
+	
+	int goodIndices(vector<int> &arr) {
+		// code here
+		int n = arr.size();
+		int answer = 0;
+		vector<int> state(n, 0);
+		for (int i = 0; i < n; i++) {
+			if (dfs(i, arr, state)) {
+				answer++;
+			}
+		}
+		return answer;
+	}
+};
