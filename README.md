@@ -108,3 +108,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 89** | [Successful Binary Searches Irrespective of Pivot](https://www.geeksforgeeks.org/problems/count-always-found/1) | 🟡 Medium | [View Code](./Successful%20Binary%20Searches%20Irrespective%20of%20Pivot) | Oct 16, 2026 |
 | **Day 90** | [Convert One String to Another with Constraints](https://www.geeksforgeeks.org/problems/convert-one-string-to-another-with-constraints/1) | 🟡 Medium | [View Code](./Convert%20One%20String%20to%20Another%20with%20Constraints) | Oct 17, 2026 |
 | **Day 91** | [Shortest Path From 1 To n](https://www.geeksforgeeks.org/problems/shortest-path-from-1-to-n0156/1) | 🟢 Easy | [View Code](./Shortest%20Path%20From%201%20To%20n) | Oct 18, 2026 |
+| **Day 92** | [Count Indices That Escape Array](https://www.geeksforgeeks.org/problems/good-stones--170647/1) | 🟡 Medium | [View Code](./Count%20Indices%20That%20Escape%20Array) | Oct 19, 2026 |
