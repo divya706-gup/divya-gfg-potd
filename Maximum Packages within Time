@@ -1,0 +1,31 @@
+class Solution {
+	public:
+	int maxPackages(vector<int>& arr, int totalTime) {
+		// code here
+		int n=arr.size();
+		if (totalTime >= n) {
+			int totalSum = 0;
+			for (int x : arr) {
+				totalSum += x;
+			}
+			return totalSum;
+		}
+		int sum = 0;
+		int left = 0;
+		int k = 0;
+		int maxSum = 0;
+		for (int right = 0; right<arr.size(); right++) {
+			sum += arr[right];
+			k++;
+			while (k>totalTime) {
+				sum -= arr[left];
+				left++;
+				k--;
+			}
+			if (k == totalTime) {
+				maxSum = max(sum, maxSum);
+			}
+		}
+		return maxSum;
+	}
+};
