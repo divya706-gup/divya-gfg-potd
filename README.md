@@ -111,3 +111,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 92** | [Count Indices That Escape Array](https://www.geeksforgeeks.org/problems/good-stones--170647/1) | 🟡 Medium | [View Code](./Count%20Indices%20That%20Escape%20Array) | Oct 19, 2026 |
 | **Day 93** | [Largest with Same Parity Adjacent Swaps](https://www.geeksforgeeks.org/problems/largest-swapped-by-parity/1) | 🟡 Medium | [View Code](./Largest%20With%20Same%20Parity%20Adjacent%20Swaps) | Oct 20, 2026 |
 | **Day 94** | [Minimum Sum Subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | 🟡 Medium | [View Code](./Minimum%20Sum%20Subarray) | Oct 21, 2026 |
+| **Day 114** | [Maximum Packages within Time](https://www.geeksforgeeks.org/problems/maximum-packages-within-time/1) | 🟡 Medium | [View Code](./Maximum%20Packages%20within%20Time) | Oct 31, 2026 |
