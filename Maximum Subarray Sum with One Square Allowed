@@ -1,0 +1,19 @@
+class Solution {
+  public:
+    int maximumSubarray(vector<int>& arr) {
+        // code here
+        int n=arr.size();
+        int noSqu=arr[0];
+        int oneSqu=arr[0]*arr[0];
+        int res=max(noSqu,oneSqu);
+        for(int i=1;i<n;i++){
+            int a=noSqu;
+            int b=oneSqu;
+            
+            oneSqu = max({arr[i] * arr[i], a + arr[i] * arr[i], b + arr[i]});
+            noSqu=max(arr[i],arr[i]+a);
+            res=max({noSqu,oneSqu,res});
+        }
+        return res;
+    }
+};
