@@ -1,0 +1,45 @@
+class Solution {
+  public:
+    int largestSumCycle(vector<int>& edge) {
+        // code here
+        int n=edge.size();
+        vector<int>indegree(n,0);
+        for(int i=0;i<n;i++){
+            if(edge[i]!=-1){
+                indegree[edge[i]]++;
+            }
+        }
+        queue<int>q;
+        for(int i=0;i<n;i++){
+            if(indegree[i]==0){
+                q.push(i);
+            }
+        }
+        while(!q.empty()){
+            auto node=q.front();
+            q.pop();
+            int next=edge[node];
+            if(next!=-1){
+                indegree[next]--;
+                if(indegree[next]==0){
+                    q.push(next);
+                }
+            }
+        }
+        long long ans=-1;
+        vector<int>visited(n,0);
+        for(int i=0;i<n;i++){
+            if(indegree[i]>0&&visited[i]==0){
+                long long sum=0;
+                int node=i;
+                while(visited[node]==0){
+                    visited[node]=1;
+                    sum += node;
+                    node=edge[node];
+                }
+                ans=max(ans,sum);
+            }
+        }
+        return ans;
+    }
+};
