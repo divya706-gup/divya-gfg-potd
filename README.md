@@ -113,3 +113,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 94** | [Minimum Sum Subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | 🟡 Medium | [View Code](./Minimum%20Sum%20Subarray) | Oct 21, 2026 |
 | **Day 114** | [Maximum Packages within Time](https://www.geeksforgeeks.org/problems/maximum-packages-within-time/1) | 🟡 Medium | [View Code](./Maximum%20Packages%20within%20Time) | Oct 31, 2026 |
 | **Day 115** | [Maximum Subarray Sum with One Square Allowed](https://www.geeksforgeeks.org/problems/maximum-sum-subarray--143510/1) | 🟡 Medium | [View Code](./Maximum%20Subarray%20Sum%20with%20One%20Square%20Allowed) | Nov 01, 2026 |
+| **Day 116** | [Largest Sum Cycle](https://www.geeksforgeeks.org/problems/largest-sum-cycle--170645/1) | 🔴 Hard | [View Code](./Largest%20Sum%20Cycle) | Nov 02, 2026 |
