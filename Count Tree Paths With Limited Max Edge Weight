@@ -1,0 +1,50 @@
+class Solution {
+private:
+    vector<int> parent;
+    vector<int> sz;
+    int find(int i) {
+        if (parent[i] == i)
+            return i;
+        return parent[i] = find(parent[i]);
+    }
+public:
+    vector<int> maximumWeight(int n, vector<vector<int>> edges, vector<int>& queries) {
+        int q_len = queries.size();
+        vector<pair<int, int>> q(q_len);
+        for (int i = 0; i < q_len; i++) {
+            q[i] = {queries[i], i};
+        }
+        sort(q.begin(), q.end());
+        sort(edges.begin(), edges.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[2] < b[2];
+        });
+        parent.resize(n + 1);
+        sz.assign(n + 1, 1);
+        for (int i = 1; i <= n; i++) {
+            parent[i] = i;
+        }
+        vector<int> ans(q_len);
+        int edge_idx = 0;
+        int m = edges.size();
+        long long current_paths = 0;
+        for (int i = 0; i < q_len; i++) {
+            int limit = q[i].first;
+            int original_idx = q[i].second;
+            while (edge_idx < m && edges[edge_idx][2] <= limit) {
+                int u = edges[edge_idx][0];
+                int v = edges[edge_idx][1];
+                int root_u = find(u);
+                int root_v = find(v);
+                if (root_u != root_v) {
+                    current_paths += (1LL * sz[root_u] * sz[root_v]);
+                    parent[root_v] = root_u;
+                    sz[root_u] += sz[root_v];
+                }
+                edge_idx++;
+            }
+            ans[original_idx] = current_paths;
+        }
+
+        return ans;
+    }
+};
