@@ -114,4 +114,5 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 114** | [Maximum Packages within Time](https://www.geeksforgeeks.org/problems/maximum-packages-within-time/1) | 🟡 Medium | [View Code](./Maximum%20Packages%20within%20Time) | Oct 31, 2026 |
 | **Day 115** | [Maximum Subarray Sum with One Square Allowed](https://www.geeksforgeeks.org/problems/maximum-sum-subarray--143510/1) | 🟡 Medium | [View Code](./Maximum%20Subarray%20Sum%20with%20One%20Square%20Allowed) | Nov 01, 2026 |
 | **Day 116** | [Largest Sum Cycle](https://www.geeksforgeeks.org/problems/largest-sum-cycle--170645/1) | 🔴 Hard | [View Code](./Largest%20Sum%20Cycle) | Nov 02, 2026 |
-| ** Day 117 ** | [Count Tree Paths With Limited Max Edge Weight](https://www.geeksforgeeks.org/problems/possible-paths--141628/1) | 🔴 Hard | [View Code](./Count%20Tree%20Paths%20With%20Limited%20Max%20Edge%20Weight) | Nov 03, 2026 |
+| **Day 117** | [Count Tree Paths With Limited Max Edge Weight](https://www.geeksforgeeks.org/problems/possible-paths--141628/1) | 🔴 Hard | [View Code](./Count%20Tree%20Paths%20With%20Limited%20Max%20Edge%20Weight) | Nov 03, 2026 |
+| **Day 119** | [Minimum Days](https://www.geeksforgeeks.org/problems/minimum-days--170646/1) | 🟡 Medium | [View Code](./Minimum%20Days) | Nov 05, 2026 |
