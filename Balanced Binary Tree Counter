@@ -1,0 +1,17 @@
+class Solution {
+  public:
+    const long long MOD = 1000000007;
+    int countBT(int h) {
+        // code here
+        if(h<=1){
+            return 1;
+        }
+        long long b=1,a=1;
+        for(long long i=2;i<=h;i++){
+            long long curr=(a*a%MOD +2*a%MOD*b%MOD)%MOD;
+            b=a;
+            a=curr;
+        }
+        return a;
+    }
+};
