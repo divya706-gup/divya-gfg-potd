@@ -1,0 +1,98 @@
+class Solution {
+  public:
+    struct TrieNode
+    {
+        TrieNode *children[36];
+        bool isEnd;
+        int lastSuffix;
+
+        TrieNode()
+        {
+            isEnd = false;
+            lastSuffix = 1;
+
+            for (int i = 0; i < 36; i++)
+            {
+                children[i] = nullptr;
+            }
+        }
+    };
+    int getCharIndex(char c)
+    {
+        if (c >= 'a' && c <= 'z')
+            return c - 'a';
+
+        return 26 + (c - '0');
+    }
+    void insert(TrieNode *root, const string &s)
+    {
+        TrieNode *curr = root;
+
+        for (char c : s)
+        {
+            int idx = getCharIndex(c);
+
+            if (curr->children[idx] == nullptr)
+            {
+                curr->children[idx] = new TrieNode();
+            }
+
+            curr = curr->children[idx];
+        }
+
+        curr->isEnd = true;
+    }
+    TrieNode *search(TrieNode *root, const string &s)
+    {
+        TrieNode *curr = root;
+
+        for (char c : s)
+        {
+            int idx = getCharIndex(c);
+
+            if (curr->children[idx] == nullptr)
+            {
+                return nullptr;
+            }
+
+            curr = curr->children[idx];
+        }
+
+        return curr->isEnd ? curr : nullptr;
+    }
+    vector<string> generateUsernames(vector<string> &arr)
+    {
+        TrieNode *root = new TrieNode();
+        vector<string> result;
+        unordered_set<string> processed;
+        for (const string &name : arr)
+        {
+            insert(root, name);
+        }
+        for (const string &name : arr)
+        {
+            if (processed.find(name) == processed.end())
+            {
+                processed.insert(name);
+                result.push_back(name);
+            }
+            else
+            {
+                TrieNode *node = search(root, name);
+                int suffix = node->lastSuffix;
+                string candidate = name + to_string(suffix);
+                while (search(root, candidate) != nullptr)
+                {
+                    suffix++;
+                    candidate = name + to_string(suffix);
+                }
+                insert(root, candidate);
+                result.push_back(candidate);
+
+                node->lastSuffix = suffix + 1;
+            }
+        }
+        return result;
+    }
+
+};
