@@ -117,4 +117,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 117** | [Count Tree Paths With Limited Max Edge Weight](https://www.geeksforgeeks.org/problems/possible-paths--141628/1) | 🔴 Hard | [View Code](./Count%20Tree%20Paths%20With%20Limited%20Max%20Edge%20Weight) | Nov 03, 2026 |
 | **Day 119** | [Minimum Days](https://www.geeksforgeeks.org/problems/minimum-days--170646/1) | 🟡 Medium | [View Code](./Minimum%20Days) | Nov 05, 2026 |
 | **Day 120** | [Balanced Binary Tree Counter](https://www.geeksforgeeks.org/problems/balanced-tree-counter--170647/1) | 🟡 Medium | [View Code](./Balanced%20Binary%20Tree%20Counter) | Nov 06, 2026 |
-| **Day 121** | [Problem Name](https://www.geeksforgeeks.org/problems/problem-url-slug/1) | 🟡 Medium | [View Code](./Problem%20Name) | Nov 07, 2026 |
+| **Day 121** | [Generate Usernames](https://www.geeksforgeeks.org/problems/new-registration-system--150419/1) | 🟡 Medium | [View Code](./Generate%20Usernames) | Nov 07, 2026 |
