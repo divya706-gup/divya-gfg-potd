@@ -1,0 +1,23 @@
+class Solution {
+  public:
+    int minTime(int n, int s1, int s2) {
+        // code here
+        if(s1>s2){
+            swap(s1,s2);
+        }
+        int l=0,h=n,minTime=s2*n;
+        while(l<=h){
+            int m=l+(h-l)/2;
+            int t1=m*s1;
+            int t2=(n-m)*s2;
+            minTime=min(minTime,max(t1,t2));
+            if(t1<=t2){
+                l=m+1;
+            }
+            else{
+                h=m-1;
+            }
+        }
+        return minTime;
+    }
+};
