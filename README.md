@@ -121,3 +121,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 122** | [Minimum Time with 2 Scanners](https://www.geeksforgeeks.org/problems/minimum-time-with-2-scanners--170647/1) | 🟢 Easy | [View Code](./Minimum%20Time%20with%202%20Scanners) | Nov 08, 2026 |
 | **Day 123** | [Count Group Occurrences](https://www.geeksforgeeks.org/problems/count-group-occurrences--170647/1) | 🟡 Medium | [View Code](./Count%20Group%20Occurrences) | Nov 09, 2026 |
 | **Day 124** | [At Least K Occurrences](https://www.geeksforgeeks.org/problems/number-of-elements-in-the-array-in-a-given-range--170647/1) | 🟢 Easy | [View Code](./At%20Least%20K%20Occurrences) | Nov 10, 2026 |
+| **Day 125** | [Any Duplicate Within K Distance](https://www.geeksforgeeks.org/problems/kth-distance3757/1) | 🟢 Easy | [View Code](./Any%20Duplicate%20Within%20K%20Distance) | Nov 11, 2026 |
