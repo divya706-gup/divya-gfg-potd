@@ -123,3 +123,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 124** | [At Least K Occurrences](https://www.geeksforgeeks.org/problems/number-of-elements-in-the-array-in-a-given-range--170647/1) | 🟢 Easy | [View Code](./At%20Least%20K%20Occurrences) | Nov 10, 2026 |
 | **Day 125** | [Any Duplicate Within K Distance](https://www.geeksforgeeks.org/problems/kth-distance3757/1) | 🟢 Easy | [View Code](./Any%20Duplicate%20Within%20K%20Distance) | Nov 11, 2026 |
 | **Day 126** | [Closest in BST](https://www.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1) | 🟡 Medium | [View Code](./Closest%20in%20BST) | Nov 12, 2026 |
+| **Day 127** | [Common Nodes in Two BSTs](https://www.geeksforgeeks.org/problems/print-common-nodes-in-two-bsts/1) | 🟡 Medium | [View Code](./Common%20Nodes%20in%20Two%20BSTs) | Nov 13, 2026 |
