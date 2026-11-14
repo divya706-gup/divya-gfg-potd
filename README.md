@@ -124,3 +124,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 125** | [Any Duplicate Within K Distance](https://www.geeksforgeeks.org/problems/kth-distance3757/1) | 🟢 Easy | [View Code](./Any%20Duplicate%20Within%20K%20Distance) | Nov 11, 2026 |
 | **Day 126** | [Closest in BST](https://www.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1) | 🟡 Medium | [View Code](./Closest%20in%20BST) | Nov 12, 2026 |
 | **Day 127** | [Common Nodes in Two BSTs](https://www.geeksforgeeks.org/problems/print-common-nodes-in-two-bsts/1) | 🟡 Medium | [View Code](./Common%20Nodes%20in%20Two%20BSTs) | Nov 13, 2026 |
+| **Day 128** | [Max Equal Sum in 3 Stacks](https://www.geeksforgeeks.org/problems/find-maximum-equal-sum-of-three-stacks/1) | 🟢 Easy | [View Code](./Max%20Equal%20Sum%20in%203%20Stacks) | Nov 14, 2026 |
