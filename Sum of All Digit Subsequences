@@ -1,0 +1,17 @@
+class Solution {
+	public:
+	int subsequenceSum(string &s) {
+		// code here
+		long long MOD = 1e9 + 7;
+		long long digitSum = 0;
+		long long powerOfTwo = 1;
+		int n = s.length();
+		for (char c : s) {
+			digitSum = (digitSum + (c - '0')) % MOD;
+		}
+		for (int i = 0; i < n - 1; i++) {
+			powerOfTwo = (powerOfTwo * 2) % MOD;
+		}
+		return (digitSum * powerOfTwo) % MOD;
+	}
+};
