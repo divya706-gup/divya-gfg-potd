@@ -128,3 +128,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 129** | [Sum of All Digit Subsequences](https://www.geeksforgeeks.org/problems/sum-of-all-substrings-of-a-number-1587115621/1) | 🟢 Easy | [View Code](./Sum%20of%20All%20Digit%20Subsequences) | Nov 15, 2026 |
 | **Day 130** | [K-th Missing in Natural Numbers](https://www.geeksforgeeks.org/problems/kth-missing-element-in-sorted-array/1) | 🟡 Medium | [View Code](./K-th%20Missing%20in%20Natural%20Numbers) | Nov 16, 2026 |
 | **Day 131** | [Repeated Pattern Check](https://www.geeksforgeeks.org/problems/the-pattern-matcher/1) | 🟢 Easy | [View Code](./Repeated%20Pattern%20Check) | Nov 17, 2026 |
+| **Day 132** | [XOR of Number Range](https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1) | 🟢 Easy | [View Code](./XOR%20of%20Number%20Range) | Nov 18, 2026 |
