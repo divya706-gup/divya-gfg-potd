@@ -1,0 +1,16 @@
+class Solution {
+  public:
+    int minFlips(string &s) {
+        // code here
+        int n=s.length();
+        int changes=0;
+        for(int i=0;i<n;i++){
+            char expected=(i%2==0)?'0':'1';
+            if(s[i]!=expected){
+                changes++;
+            }
+        }
+        int a=n-changes;
+        return min(changes,a);
+    }
+};
