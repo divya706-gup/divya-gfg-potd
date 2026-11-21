@@ -131,3 +131,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 132** | [XOR of Number Range](https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1) | 🟢 Easy | [View Code](./XOR%20of%20Number%20Range) | Nov 18, 2026 |
 | **Day 133** | [Sort in Specific Order](https://www.geeksforgeeks.org/problems/sort-in-specific-order2422/1) | 🟡 Medium | [View Code](./Sort%20in%20Specific%20Order) | Nov 19, 2026 |
 | **Day 134** | [Min Flips for Alternate](https://www.geeksforgeeks.org/problems/min-number-of-flips3210/1) | 🟢 Easy | [View Code](./Min%20Flips%20for%20Alternate) | Nov 20, 2026 |
+| **Day 135** | [Smallest Subarray Sum Greater Than x](https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1) | 🟢 Easy | [View Code](./Smallest%20Subarray%20Sum%20Greater%20Than%20x) | Nov 21, 2026 |
