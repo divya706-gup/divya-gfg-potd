@@ -132,3 +132,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 133** | [Sort in Specific Order](https://www.geeksforgeeks.org/problems/sort-in-specific-order2422/1) | 🟡 Medium | [View Code](./Sort%20in%20Specific%20Order) | Nov 19, 2026 |
 | **Day 134** | [Min Flips for Alternate](https://www.geeksforgeeks.org/problems/min-number-of-flips3210/1) | 🟢 Easy | [View Code](./Min%20Flips%20for%20Alternate) | Nov 20, 2026 |
 | **Day 135** | [Smallest Subarray Sum Greater Than x](https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1) | 🟢 Easy | [View Code](./Smallest%20Subarray%20Sum%20Greater%20Than%20x) | Nov 21, 2026 |
+| **Day 136** | [Longest Subarray Sum Divisible by K](https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1) | 🟡 Medium | [View Code](./Longest%20Subarray%20Sum%20Divisible%20by%20K) | Nov 22, 2026 |
