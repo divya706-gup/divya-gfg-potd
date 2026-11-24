@@ -1,0 +1,31 @@
+class Solution {
+public:
+    char posInfinite(string &s, int pos) {
+        long long target = pos;
+        long long n = s.size();
+        vector<long long> lengths;
+        lengths.push_back(n);
+        int step = 1;
+        while (lengths.back() < target) {
+            long long prev_len = lengths.back();
+            long long next_len = 2 * prev_len + step;
+            lengths.push_back(next_len);
+            step++;
+        }
+        for (int i = static_cast<int>(lengths.size()) - 1; i >= 1; --i) {
+            long long prev_len = lengths[i - 1];
+            long long dollars = i;
+            if (target <= prev_len) {
+                continue;
+            } 
+            else if (target <= prev_len + dollars) {
+                return '$';
+            }
+            else {
+                long long offset = target - (prev_len + dollars);
+                target = prev_len - offset + 1;
+            }
+        }
+        return s[static_cast<size_t>(target - 1)];
+    }
+};
