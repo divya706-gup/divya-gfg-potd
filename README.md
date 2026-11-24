@@ -134,3 +134,4 @@ Each solution is organized systematically inside its respective problem folder/f
 | **Day 135** | [Smallest Subarray Sum Greater Than x](https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1) | 🟢 Easy | [View Code](./Smallest%20Subarray%20Sum%20Greater%20Than%20x) | Nov 21, 2026 |
 | **Day 136** | [Longest Subarray Sum Divisible by K](https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1) | 🟡 Medium | [View Code](./Longest%20Subarray%20Sum%20Divisible%20by%20K) | Nov 22, 2026 |
 | **Day 137** | [Character at Position in Infinite String](https://www.geeksforgeeks.org/problems/the-infinite-string1049/1) |🟡 Medium   | [View Code](./Character%20at%20Position%20in%20Infinite%20String) | Nov 23, 2026 |
+| **Day 138** | [Two Pairs with Same Sum](https://www.geeksforgeeks.org/problems/satisfy-the-equation5847/1) | 🟡 Medium | [View Code](./Two%20Pairs%20with%20Same%20Sum) | Nov 24, 2026 |
