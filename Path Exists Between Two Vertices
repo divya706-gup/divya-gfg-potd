@@ -1,0 +1,28 @@
+class Solution {
+  public:
+    bool checkPath(vector<vector<int>> &adj, int u, int v) {
+      // code here
+      if (u == v) {
+        return true;
+      }
+      int n = static_cast<int>(adj.size());
+      vector<bool> visited(n, false);
+      queue<int> q;
+      visited[u] = true;
+      q.push(u);
+      while (!q.empty()) {
+        int curr = q.front();
+        q.pop();
+        if (curr == v) {
+          return true;
+        }
+        for (int neighbor : adj[curr]) {
+          if (!visited[neighbor]) {
+            visited[neighbor] = true;
+            q.push(neighbor);
+          }
+        }
+      }
+      return false;
+    }
+};
